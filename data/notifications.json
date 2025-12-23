@@ -1,0 +1,93 @@
+[
+  {
+    "type": "email",
+    "to": "test@example.com",
+    "subject": "Test Email",
+    "body": "This is a test email notification",
+    "priority": "normal",
+    "sent_at": "2025-12-23T22:24:24.044788",
+    "status": "pending"
+  },
+  {
+    "type": "push",
+    "user_id": "test-user-123",
+    "title": "Test Push",
+    "message": "This is a test push notification",
+    "data": {
+      "test": true
+    },
+    "sent_at": "2025-12-23T22:24:24.045582",
+    "status": "pending"
+  },
+  {
+    "type": "system_alert",
+    "alert_type": "info",
+    "message": "Test system alert",
+    "severity": "medium",
+    "details": {
+      "component": "notification_test"
+    },
+    "created_at": "2025-12-23T22:24:24.046575",
+    "acknowledged": false
+  },
+  {
+    "id": "3caf602a-cd44-4d67-8979-1af0c836664f",
+    "type": "email",
+    "to": "test@example.com",
+    "subject": "Test Email",
+    "body": "This is a test email notification",
+    "priority": "normal",
+    "sent_at": "2025-12-23T22:25:46.629804",
+    "status": "sent"
+  },
+  {
+    "id": "4fdb1666-4e17-4db0-bd61-0f45b907f226",
+    "type": "push",
+    "user_id": "test-user-123",
+    "title": "Test Push",
+    "message": "This is a test push notification",
+    "data": {
+      "test": true
+    },
+    "sent_at": "2025-12-23T22:25:46.631048",
+    "status": "sent",
+    "read": false
+  },
+  {
+    "id": "31532687-acaf-41d8-87df-642d17a439ec",
+    "type": "system_alert",
+    "alert_type": "info",
+    "message": "Test system alert",
+    "severity": "medium",
+    "details": {
+      "component": "notification_test"
+    },
+    "created_at": "2025-12-23T22:25:46.632375",
+    "acknowledged": false
+  },
+  {
+    "id": "6395a4d2-4c0d-4bfa-b13b-f6721446fa5a",
+    "type": "email",
+    "to": "user@example.com",
+    "subject": "Test Email with ID",
+    "body": "Testing ID generation",
+    "priority": "high",
+    "sent_at": "2025-12-23T22:26:21.189644",
+    "status": "sent"
+  },
+  {
+    "id": "8b4d5d7d-6080-4f7c-b2bd-e7e76b38b127",
+    "type": "system_alert",
+    "alert_type": "warning",
+    "message": "Test alert with ID",
+    "severity": "high",
+    "details": {
+      "test": true
+    },
+    "created_at": "2025-12-23T22:26:21.191443",
+    "acknowledged": true,
+    "read": true,
+    "read_at": "2025-12-23T22:26:21.193120",
+    "acknowledged_at": "2025-12-23T22:26:21.195489"
+  }
+]

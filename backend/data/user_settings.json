@@ -1,0 +1,27 @@
+{
+  "8b991e84-5e36-4540-9edc-3d8e14781ec5": {
+    "similarityThreshold": 0.8,
+    "maxSuggestions": 20,
+    "cacheEnabled": true,
+    "updated_at": "2025-12-23T11:10:36.008539"
+  },
+  "3421cf0a-df26-4f59-8d6f-0ff20bdcfe57": {
+    "similarityThreshold": 0.7,
+    "maxSuggestions": 10,
+    "searchTimeout": 30,
+    "cacheEnabled": true,
+    "maxConcurrentRequests": 100,
+    "contextWindowSize": 512,
+    "requireAuth": true,
+    "sessionTimeout": 30,
+    "logLevel": "INFO",
+    "emailNotifications": true,
+    "pushNotifications": false,
+    "systemAlerts": true,
+    "retentionPeriod": 90,
+    "autoBackup": true,
+    "backupFrequency": "daily",
+    "embeddingModel": "all-MiniLM-L6-v2",
+    "updated_at": "2025-12-23T23:24:17.028249"
+  }
+}
