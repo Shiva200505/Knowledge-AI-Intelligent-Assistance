@@ -83,8 +83,8 @@ docker-compose up -d
 ## 🔧 Configuration
 See `config/` directory for environment-specific settings.
 
-## 📖 API Documentation
-Interactive API docs available at: http://localhost:8000/docs
+## 📖 Deployed Project 
+https://ai-knowledge-intelligent-system.vercel.app/
 
 ## 🤝 Contributing
 This is a complete solution designed for production use. See CONTRIBUTING.md for development guidelines.
